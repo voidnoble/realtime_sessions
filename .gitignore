@@ -1,0 +1,4 @@
+.idea
+rethinkdb_data
+node_modules
+dump.rdb

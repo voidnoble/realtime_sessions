@@ -1,0 +1,21 @@
+{
+  "name": "realtime-users",
+  "version": "0.0.1",
+  "description": "Real-time user counts",
+  "main": "server.js",
+  "scripts": {
+    "start": "supervisor server.js",
+    "test": "test"
+  },
+  "author": "yj.kwak@motorgraph.com",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "express": "^4.13.4",
+    "redis": "^2.6.0-2",
+    "rethinkdb": "^2.3.1",
+    "rollbar": "^0.6.0",
+    "socket.io": "^1.4.6",
+    "socket.io-redis": "^1.0.0"
+  }
+}
